@@ -1,0 +1,19 @@
+.bg-image {
+    background-image: url('../../../../assets/Rectangle 32.png');
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bg-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(1, 8, 57, 0.984), rgba(4, 4, 81, 0.43));
+    z-index: 0;
+  }
+  
+  .bg-image > * {
+    position: relative;
+    z-index: 1;
+  }
+  

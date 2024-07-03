@@ -1,5 +1,6 @@
 import BannerBottomSection from "../Component/BannerBottomSection/BannerBottomSection";
 import BannerSection from "../Component/BannerSection/BannerSection";
+import DIscountSection from "../Component/DIscountSection/DIscountSection";
 import FaqSection from "../Component/FaqSection/FaqSection";
 import GetHelpSections from "../Component/GetHelpSections/GetHelpSections";
 import Navbar from "../Component/Navbar/Navbar";
@@ -17,6 +18,7 @@ const Home = () => {
             <Services></Services>
             <Testimonial></Testimonial>
             <FaqSection></FaqSection>
+            <DIscountSection></DIscountSection>
             </div>
         </div>
     );
