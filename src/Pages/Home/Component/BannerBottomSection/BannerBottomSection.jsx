@@ -6,13 +6,13 @@ import coin from '../../../../assets/coin.png'
 
 const BannerBottomSection = () => {
   return (
-    <div className="grid-cols-5 mt-12 gap-5 grid">
-      <div className=" border-2 shadow-lg rounded-3xl p-5 space-y-3  col-span-1">
+    <div className="grid-cols-5 mt-12 gap-3 grid">
+      <div className=" border-2 shadow-lg rounded-3xl p-5 py-2 space-y-3  col-span-1">
         <h1 className=" text-5xl font-semibold">90%</h1>
         <p className=" text-lg font-medium">
           Patient satisfaction rate, reflecting our commitment.
         </p>
-        <div className=" w-[180px] flex justify-center">
+        <div className=" w-[170px] flex justify-center">
           <img className=" w-full" src={circle} alt="" />
         </div>
       </div>
@@ -75,13 +75,13 @@ const BannerBottomSection = () => {
           </div>
         </div>
       </div>
-      <div className=" flex flex-col border-2 shadow-lg rounded-3xl p-5 space-y-3  col-span-1">
+      <div className=" flex flex-col border-2 shadow-lg rounded-3xl p-5 py-2 space-y-3  col-span-1">
         <h1 className=" text-5xl font-semibold">50+</h1>
         <p className=" flex-1 text-lg font-medium">
           Free lession video <br />
           for patient
         </p>
-        <div className=" w-[180px] flex justify-center">
+        <div className=" w-[170px] flex justify-center">
           <img src={camera} alt="" />
         </div>
       </div>
