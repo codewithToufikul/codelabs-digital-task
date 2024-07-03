@@ -1,5 +1,6 @@
 import BannerBottomSection from "../Component/BannerBottomSection/BannerBottomSection";
 import BannerSection from "../Component/BannerSection/BannerSection";
+import FaqSection from "../Component/FaqSection/FaqSection";
 import GetHelpSections from "../Component/GetHelpSections/GetHelpSections";
 import Navbar from "../Component/Navbar/Navbar";
 import Services from "../Component/Services/Services";
@@ -15,6 +16,7 @@ const Home = () => {
             <GetHelpSections></GetHelpSections>
             <Services></Services>
             <Testimonial></Testimonial>
+            <FaqSection></FaqSection>
             </div>
         </div>
     );
