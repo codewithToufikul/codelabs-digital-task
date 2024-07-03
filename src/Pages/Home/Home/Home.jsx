@@ -1,6 +1,7 @@
 import BannerBottomSection from "../Component/BannerBottomSection/BannerBottomSection";
 import BannerSection from "../Component/BannerSection/BannerSection";
 import DIscountSection from "../Component/DIscountSection/DIscountSection";
+import Footer from "../Component/DIscountSection/Footer/Footer";
 import FaqSection from "../Component/FaqSection/FaqSection";
 import GetHelpSections from "../Component/GetHelpSections/GetHelpSections";
 import Navbar from "../Component/Navbar/Navbar";
@@ -20,6 +21,7 @@ const Home = () => {
             <FaqSection></FaqSection>
             <DIscountSection></DIscountSection>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

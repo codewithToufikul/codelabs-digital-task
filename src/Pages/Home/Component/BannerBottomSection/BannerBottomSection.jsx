@@ -6,7 +6,7 @@ import coin from '../../../../assets/coin.png'
 
 const BannerBottomSection = () => {
   return (
-    <div className="grid-cols-5 mt-12 gap-3 grid">
+    <div className="md:grid-cols-5 grid-cols-1 mt-12 gap-3 grid">
       <div className=" border-2 shadow-lg rounded-3xl p-5 py-2 space-y-3  col-span-1">
         <h1 className=" text-5xl font-semibold">90%</h1>
         <p className=" text-lg font-medium">
@@ -18,11 +18,11 @@ const BannerBottomSection = () => {
       </div>
       <div className=" col-span-3 flex flex-col gap-2 justify-between">
         <div>
-          <h1 className=" text-6xl text-center font-medium">
+          <h1 className=" md:text-4xl text-2xl lg:text-6xl text-center font-medium">
             Comprehensive Care <br /> for Every Patient
           </h1>
         </div>
-        <div className=" gap-3 grid grid-cols-3">
+        <div className=" gap-3 grid-cols-1 grid md:grid-cols-3">
           <div className=" shadow-lg rounded-3xl border-2 p-4">
             <h1 className=" text-5xl font-semibold mb-2">500+</h1>
             <p className=" flex-1 text-lg font-medium">
