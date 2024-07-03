@@ -97,7 +97,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-   <button className=' bg-transparent hover:bg-yellow-400 hover:border-none p-3 px-5 font-semibold border-[1px] border-black rounded-2xl text-lg flex items-center justify-center gap-1'><p className=' font-semibold'>Appointment</p> <span className=' font-semibold'><GoArrowUpRight size={25} /></span></button>
+   <button className=' bg-transparent hover:bg-yellow-400 hover:border-none p-3 md:px-5 font-semibold border-[1px] border-black rounded-2xl text-lg flex items-center justify-center gap-1'><p className=' font-semibold'>Appointment</p> <span className=' font-semibold'><GoArrowUpRight size={25} /></span></button>
   </div>
 </div>
     );

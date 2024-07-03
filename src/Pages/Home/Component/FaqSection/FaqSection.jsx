@@ -11,7 +11,7 @@ const FaqSection = () => {
   return (
     <div className="mt-[130px]">
       <SectionTag text={'FAQ'} />
-      <h1 className="text-5xl font-semibold mt-3 mb-7">Frequently Asked Questions</h1>
+      <h1 className="lg:text-5xl md:text-4xl text-3xl font-semibold mt-3 mb-7">Frequently Asked Questions</h1>
       <div className=" space-y-5" id="accordion-collapse" data-accordion="collapse">
         <h2 id="accordion-collapse-heading-1">
           <button
