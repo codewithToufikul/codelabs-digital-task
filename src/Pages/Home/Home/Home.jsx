@@ -2,6 +2,8 @@ import BannerBottomSection from "../Component/BannerBottomSection/BannerBottomSe
 import BannerSection from "../Component/BannerSection/BannerSection";
 import GetHelpSections from "../Component/GetHelpSections/GetHelpSections";
 import Navbar from "../Component/Navbar/Navbar";
+import Services from "../Component/Services/Services";
+import Testimonial from "../Component/Testimonial/Testimonial";
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
             <BannerSection></BannerSection>
             <BannerBottomSection></BannerBottomSection>
             <GetHelpSections></GetHelpSections>
+            <Services></Services>
+            <Testimonial></Testimonial>
             </div>
         </div>
     );
